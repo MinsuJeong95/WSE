@@ -10,7 +10,7 @@ WSE-Net : Weak Saliency Ensemble Network for Person Re-identification Using Infr
 
 Download trained model
 
-~
+https://drive.google.com/file/d/1BQ2spGZnMLj6RqvY2t5-dhG_o41bE810/view?usp=drive_link
 
 Download thermal database
 
