@@ -1,11 +1,3 @@
-# WSE-Net
------------------------------------------------------------------------------------------------------------------------------
-WSE-Net : Weak Saliency Ensemble Network for Person Re-identification Using Infrared Light Images. Any works that uses the provided pretrained network must acknowledge the authors by including the following reference.
-
-    Min Su Jeong and Kang Ryoung Park, "WSE-Net : Weak Saliency Ensemble Network for Person Re-identification Using Infrared Light Images Any works that uses the provided pretrained network must acknowledge the authors by including the following reference." Engineering applications of artificial intelligence, In submission
-    
-<br>
-
 -----------------------------------------------------------------------------------------------------------------------------
 
 Download trained model
