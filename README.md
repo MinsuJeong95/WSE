@@ -5,7 +5,7 @@
 
 1. You can download DBPerson-Recog-DB1_thermal [1] :
 ```
-[Click here to try](https://drive.google.com/file/d/1ugIeeHM0OTWhgNeF4ftP4AKE7s7ltYww/view?usp=sharing)
+https://drive.google.com/file/d/1ugIeeHM0OTWhgNeF4ftP4AKE7s7ltYww/view?usp=sharing
 ```
 2. You can download SYSU-MM01 [2] :
 ```
