@@ -15,6 +15,17 @@ https://github.com/wuancong/SYSU-MM01
 
 
 -----------------------------------------------------------------------------------------------------------------------------
+## Download Requirements.txt and WSE-Net_CLI
+1. Requirements.txt
+```
+https://drive.google.com/file/d/18xEC4p9mduFnohTxf7xAUedU2OauRb1K/view?usp=drive_link
+```
+2. WSE-Net_CLI
+```
+https://drive.google.com/file/d/1zkl0Smfq98c_xZgeJG-kLfOPQFNqwWxf/view?usp=drive_link
+```
+-----------------------------------------------------------------------------------------------------------------------------
+
 
 
 ## Instruction on launching code (Training, validation and test)
