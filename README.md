@@ -21,7 +21,14 @@
 
    <https://drive.google.com/file/d/18xEC4p9mduFnohTxf7xAUedU2OauRb1K/view?usp=drive_link>
 
-2. WSE-Net_CLI
+   We used virtual environment (anaconda).
+   you can install our environment :
+   
+    ```
+    conda create --name WSE-Net --file requirements.txt
+    ```
+
+3. WSE-Net_CLI
 
    <https://drive.google.com/file/d/1zkl0Smfq98c_xZgeJG-kLfOPQFNqwWxf/view?usp=drive_link>
 
