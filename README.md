@@ -7,6 +7,21 @@
    
    <https://drive.google.com/file/d/1ugIeeHM0OTWhgNeF4ftP4AKE7s7ltYww/view?usp=sharing>
 
+2. You can download SYSU-MM01 [2] :
+   
+   <https://github.com/wuancong/SYSU-MM01>
+
+
+3. The download path will be used to launch the code.
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+## Download Requirements.txt and WSE-Net_CLI
+1. Requirements.txt
+
+   <https://drive.google.com/file/d/18xEC4p9mduFnohTxf7xAUedU2OauRb1K/view?usp=drive_link>
+
+   
    We used virtual environment (Anaconda 4.9.2).
    
    You can install our environment :
@@ -19,23 +34,9 @@
     ```
    * For pytorch, you should install it for your CUDA version.
 
-3. You can download SYSU-MM01 [2] :
-   
-   <https://github.com/wuancong/SYSU-MM01>
 
 
-4. The download path will be used to launch the code.
-
-
------------------------------------------------------------------------------------------------------------------------------
-## Download Requirements.txt and WSE-Net_CLI
-1. Requirements.txt
-
-   <https://drive.google.com/file/d/18xEC4p9mduFnohTxf7xAUedU2OauRb1K/view?usp=drive_link>
-
-
-
-3. WSE-Net_CLI
+2. WSE-Net_CLI
 
    <https://drive.google.com/file/d/1zkl0Smfq98c_xZgeJG-kLfOPQFNqwWxf/view?usp=drive_link>
 
