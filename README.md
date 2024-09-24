@@ -19,8 +19,7 @@
 ## Download Requirements.txt and WSE-Net_CLI
 1. Requirements.txt
 
-   <https://drive.google.com/file/d/18xEC4p9mduFnohTxf7xAUedU2OauRb1K/view?usp=drive_link>
-
+   <https://drive.google.com/file/d/1GUCcXzesZ6rXPKc2SWw8eSHrZmIFCAbD/view?usp=drive_link>
    
    We used virtual environment (Anaconda 4.9.2).
    
@@ -36,7 +35,7 @@
 
 
 
-2. WSE-Net_CLI
+3. WSE-Net_CLI
 
    <https://drive.google.com/file/d/1zkl0Smfq98c_xZgeJG-kLfOPQFNqwWxf/view?usp=drive_link>
 
