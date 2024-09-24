@@ -48,13 +48,13 @@
 To launching WSE-Net, proceed as follows:
 
 1. Download thermal dataset (DBPerson-Recog-DB1_thermal, SYSU-MM01).
-2. Run WSE-Net_CLI on python
+2. Run WSE-Net_CLI on python.
    
-   2.1 Run DBPerson-Recog-DB1_thermal
+   2.1 Run DBPerson-Recog-DB1_thermal.
    ```
    python WSE-Net_CLI.py --dbpath=Your_dataset_path --fold=Fold1,Fold2 --datasettypes=DBPerson-Recog-DB1_thermal
    ```
-   2.2 Run SYSU-MM01_thermal
+   2.2 Run SYSU-MM01_thermal.
    ```
    python WSE-Net_CLI.py --dbpath=Your_dataset_path --fold=Fold1,Fold2 --datasettypes=SYSU-MM01_thermal
    ```
