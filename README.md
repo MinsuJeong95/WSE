@@ -16,7 +16,7 @@
 
 
 -----------------------------------------------------------------------------------------------------------------------------
-## Download Requirements.txt and WSE-Net_CLI
+## Download Requirements.txt and WSE-Net_CLI (Command-Line Interface)
 1. Requirements.txt
 
    <https://drive.google.com/file/d/1GUCcXzesZ6rXPKc2SWw8eSHrZmIFCAbD/view?usp=drive_link>
@@ -35,7 +35,7 @@
 
 
 
-3. WSE-Net_CLI
+3. WSE-Net_CLI to interact with our code.
 
    <https://drive.google.com/file/d/1zkl0Smfq98c_xZgeJG-kLfOPQFNqwWxf/view?usp=drive_link>
 
