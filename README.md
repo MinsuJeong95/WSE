@@ -7,12 +7,24 @@
    
    <https://drive.google.com/file/d/1ugIeeHM0OTWhgNeF4ftP4AKE7s7ltYww/view?usp=sharing>
 
-2. You can download SYSU-MM01 [2] :
+   We used virtual environment (Anaconda 4.9.2).
+   
+   You can install our environment :
+   
+    ```
+    conda create --name WSE-Net --file requirements.txt
+    conda activate WSE-Net
+    conda install conda-forge::timm
+    conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 cudatoolkit=11.3 -c pytorch
+    ```
+   * For pytorch, you should install it for your CUDA version.
+
+3. You can download SYSU-MM01 [2] :
    
    <https://github.com/wuancong/SYSU-MM01>
 
 
-3. The download path will be used to launch the code.
+4. The download path will be used to launch the code.
 
 
 -----------------------------------------------------------------------------------------------------------------------------
