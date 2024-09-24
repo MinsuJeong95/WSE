@@ -19,11 +19,11 @@
 ## Download Requirements.txt and WSE-Net_CLI
 1. Requirements.txt
 
-<https://drive.google.com/file/d/18xEC4p9mduFnohTxf7xAUedU2OauRb1K/view?usp=drive_link>
+   <https://drive.google.com/file/d/18xEC4p9mduFnohTxf7xAUedU2OauRb1K/view?usp=drive_link>
 
 2. WSE-Net_CLI
 
-<https://drive.google.com/file/d/1zkl0Smfq98c_xZgeJG-kLfOPQFNqwWxf/view?usp=drive_link>
+   <https://drive.google.com/file/d/1zkl0Smfq98c_xZgeJG-kLfOPQFNqwWxf/view?usp=drive_link>
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -35,6 +35,7 @@ To launching WSE-Net, proceed as follows:
 
 1. Download thermal dataset (DBPerson-Recog-DB1_thermal, SYSU-MM01).
 2. Run WSE-Net_CLI on python
+   
    2.1 Run DBPerson-Recog-DB1_thermal
    ```
    python WSE-Net_CLI.py --dbpath=Your_dataset_path --fold=Fold1,Fold2 --datasettypes=DBPerson-Recog-DB1_thermal
@@ -51,7 +52,7 @@ To launching WSE-Net, proceed as follows:
 
 ## Download pre-trained models
 
-<https://drive.google.com/file/d/1BQ2spGZnMLj6RqvY2t5-dhG_o41bE810/view?usp=drive_link>
+   <https://drive.google.com/file/d/1BQ2spGZnMLj6RqvY2t5-dhG_o41bE810/view?usp=drive_link>
 
 If you need pre-trained models of WSE-Net, you can download it via the link above.
 
