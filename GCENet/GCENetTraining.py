@@ -4,7 +4,6 @@ import torchvision.transforms as transforms
 import torch.nn as nn
 from torch.utils.data import DataLoader
 import torch.optim as optim
-from torch.utils.tensorboard import SummaryWriter
 import torch.nn.functional as nnf
 import cv2
 import os
@@ -113,7 +112,6 @@ def training(datasetType, Fold, modelType, gceNet, DBPath, numOfClass, numEpoch=
     criterionTriplet = nn.TripletMarginLoss().to(device)
     optimizer = optim.Adam(model.parameters(), lr=learningRate, weight_decay=wdecay)
 
-    writer = SummaryWriter()  # tensorboard
     iterCnt = 0
     fileName = 0
     lastEpoch = 0
@@ -154,8 +152,6 @@ def training(datasetType, Fold, modelType, gceNet, DBPath, numOfClass, numEpoch=
             print('[%d, %5d] loss: %.6f' %
                   (epoch + 1, i + 1, loss.item()))
 
-            writer.add_scalar('iter/loss', loss.item(), iterCnt)
-            writer.add_scalar('iter/accuracy', acc, iterCnt)
             saveIterCnt.append(iterCnt)
             saveLoss.append(loss.item())
             saveAccuracy.append(acc)
@@ -194,7 +190,6 @@ def training(datasetType, Fold, modelType, gceNet, DBPath, numOfClass, numEpoch=
     del Trainset
     del Loader
     torch.cuda.empty_cache()
-    writer.close()
 
     print('Finished Training')
 

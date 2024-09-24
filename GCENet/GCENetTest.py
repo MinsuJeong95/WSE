@@ -4,7 +4,6 @@ import torchvision.transforms as transforms
 import torch.nn as nn
 from torch.utils.data import DataLoader
 import torch.optim as optim
-from torch.utils.tensorboard import SummaryWriter
 import torch.nn.functional as nnf
 import cv2
 import os
