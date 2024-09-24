@@ -4,17 +4,44 @@
 ## Storing the dataset
 
 1. You can download DBPerson-Recog-DB1_thermal [1] :
-```
-https://drive.google.com/file/d/1ugIeeHM0OTWhgNeF4ftP4AKE7s7ltYww/view?usp=sharing
-```
+   
+   <https://drive.google.com/file/d/1ugIeeHM0OTWhgNeF4ftP4AKE7s7ltYww/view?usp=sharing>
+
 2. You can download SYSU-MM01 [2] :
-```
-https://github.com/wuancong/SYSU-MM01
-```
+   
+   <https://github.com/wuancong/SYSU-MM01>
+
+
 3. The download path will be used to launch the code.
 
 
 -----------------------------------------------------------------------------------------------------------------------------
+## Download Requirements.txt and WSE-Net_CLI
+1. Requirements.txt
+
+   <https://drive.google.com/file/d/18xEC4p9mduFnohTxf7xAUedU2OauRb1K/view?usp=drive_link>
+
+   
+   We used virtual environment (Anaconda 4.9.2).
+   
+   You can install our environment :
+   
+    ```
+    conda create --name WSE-Net --file requirements.txt
+    conda activate WSE-Net
+    conda install conda-forge::timm
+    conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 cudatoolkit=11.3 -c pytorch
+    ```
+   * For pytorch, you should install it for your CUDA version.
+
+
+
+2. WSE-Net_CLI
+
+   <https://drive.google.com/file/d/1zkl0Smfq98c_xZgeJG-kLfOPQFNqwWxf/view?usp=drive_link>
+
+-----------------------------------------------------------------------------------------------------------------------------
+
 
 
 ## Instruction on launching code (Training, validation and test)
@@ -22,10 +49,16 @@ https://github.com/wuancong/SYSU-MM01
 To launching WSE-Net, proceed as follows:
 
 1. Download thermal dataset (DBPerson-Recog-DB1_thermal, SYSU-MM01).
-2. Run WSE-Net_CLI on python :
-```
-python WSE-Net_CLI.py --dbpath=Your_dataset_path --fold=Fold1 or Fold2 or Fold1,Fold2 --datasettypes=DBPerson-Recog-DB1_thermal or SYSU-MM01_thermal or DBPerson-Recog-DB1_thermal,SYSU-MM01_thermal
-```
+2. Run WSE-Net_CLI on python
+   
+   2.1 Run DBPerson-Recog-DB1_thermal
+   ```
+   python WSE-Net_CLI.py --dbpath=Your_dataset_path --fold=Fold1,Fold2 --datasettypes=DBPerson-Recog-DB1_thermal
+   ```
+   2.2 Run SYSU-MM01_thermal
+   ```
+   python WSE-Net_CLI.py --dbpath=Your_dataset_path --fold=Fold1,Fold2 --datasettypes=SYSU-MM01_thermal
+   ```
 3. After running, you can get the trained model, validation result and test result.
 
 
@@ -34,9 +67,8 @@ python WSE-Net_CLI.py --dbpath=Your_dataset_path --fold=Fold1 or Fold2 or Fold1,
 
 ## Download pre-trained models
 
-```
-https://drive.google.com/file/d/1BQ2spGZnMLj6RqvY2t5-dhG_o41bE810/view?usp=drive_link
-```
+   <https://drive.google.com/file/d/1BQ2spGZnMLj6RqvY2t5-dhG_o41bE810/view?usp=drive_link>
+
 If you need pre-trained models of WSE-Net, you can download it via the link above.
 
 
