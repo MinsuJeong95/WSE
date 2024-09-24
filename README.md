@@ -23,7 +23,7 @@
 
    We used virtual environment (Anaconda 4.9.2).
    
-   you can install our environment :
+   You can install our environment :
    
     ```
     conda create --name WSE-Net --file requirements.txt
