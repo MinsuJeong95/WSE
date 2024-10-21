@@ -1,6 +1,7 @@
 ## Weak Saliency Ensemble Network for Person Re-identification Using Infrared Light Images
 
 This study proposes a new weak saliency ensemble network (WSE-Net) for person re-id using IR images. 
+
 WSE-Net incorporates a channel reduction of feature (CRF) method to reduce computational cost in the ensemble network, a technique for converting input images into group of patch images and feeding them into the ensemble model to enhance the reduced feature information, and a grouped convolution ensemble network (GCE-Net) that enables the fusion of features extracted from original and attention-guided ensemble models.
 
 -----------------------------------------------------------------------------------------------------------------------------
